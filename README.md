@@ -1,4 +1,4 @@
-# camspoken-nli (v1.0): code and results
+# CamSpoken: CamSpokenNLI (v1.0) code and results
 
 Code and result files for the paper **"CamSpokenNLI: A Pilot Resource for Cross-Variety Transfer Evaluation in Cameroon Pidgin English and Camfranglais"** (Tiani Pekins Ebika, University of Buea).
 
@@ -169,11 +169,12 @@ All materials are intended for research use. They may not be used for commercial
 
 ```bibtex
 @misc{ebika2026camspokennli,
-  title        = {CamSpokenNLI: A Pilot Spoken Natural Language Inference Resource for Cameroon Pidgin English and Camfranglais},
+  title        = {CamSpokenNLI: A Pilot Resource for Cross-Variety Transfer Evaluation in Cameroon Pidgin English and Camfranglais},
   author       = {Ebika, Tiani Pekins},
   year         = {2026},
   publisher    = {LAB 237 -- Open AI Research Lab},
   howpublished = {Hugging Face Datasets},
-  url          = {https://huggingface.co/datasets/lab-237/camspoken}
+  url          = {https://huggingface.co/datasets/lab-237/camspoken},
+  note         = {arXiv link to be added}
 }
 ```
