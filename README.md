@@ -1,4 +1,4 @@
-# CamSpokenNLI (v1.0): code and results
+# camspoken-nli (v1.0): code and results
 
 Code and result files for the paper **"CamSpokenNLI: A Pilot Resource for Cross-Variety Transfer Evaluation in Cameroon Pidgin English and Camfranglais"** (Tiani Pekins Ebika, University of Buea).
 
