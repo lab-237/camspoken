@@ -20,7 +20,7 @@ camspoken/
 └─ results/                   26 result files, plus a README.md that describes each one
 ```
 
-The audio is not in this repository. It is on Hugging Face, in two folders, `audio/pidgin/wes_NNNNN.wav` and `audio/camfranglais/camf_NNNNN.wav` (228 files, already trimmed).
+The audio is not in this repository. It is on Hugging Face, in the `source/audio/` folder, as `pidgin/wes_NNNNN.wav` and `camfranglais/camf_NNNNN.wav` (228 files, already trimmed).
 
 ## Requirements
 
