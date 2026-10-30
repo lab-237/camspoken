@@ -1,0 +1,13 @@
+experiment,split_type,direction,train_variety,test_variety,condition,epochs,seed,fold_mean_accuracy,fold_sample_sd,pooled_correct,pooled_n,pooled_accuracy,binomial_p_one_sided,binomial_p_lt_0_05
+within_hypothesis_only,within_5fold,within,camfranglais,camfranglais,hypothesis_only,15,42,0.524505928853755,0.15509490593118438,60,114,0.5263157894736842,1.702987040434391e-05,True
+within_hypothesis_only,within_5fold,within,camfranglais,camfranglais,hypothesis_only,15,123,0.42806324110671934,0.15775406209622572,49,114,0.4298245614035088,0.01989465885576985,True
+within_hypothesis_only,within_5fold,within,camfranglais,camfranglais,hypothesis_only,15,2024,0.4553359683794467,0.08005294378329068,52,114,0.45614035087719296,0.00427952303916961,True
+within_hypothesis_only,within_5fold,within,pidgin,pidgin,hypothesis_only,15,42,0.4031620553359684,0.03099681253232828,46,114,0.40350877192982454,0.06962263683265002,False
+within_hypothesis_only,within_5fold,within,pidgin,pidgin,hypothesis_only,15,123,0.4387351778656126,0.03198896058545186,50,114,0.43859649122807015,0.012306550931552486,True
+within_hypothesis_only,within_5fold,within,pidgin,pidgin,hypothesis_only,15,2024,0.4122529644268774,0.04864230176411395,47,114,0.41228070175438597,0.04730588363673945,True
+within_premise_only,within_5fold,within,camfranglais,camfranglais,premise_only,15,42,0.3683794466403162,0.021900229529162207,42,114,0.3684210526315789,0.24169064135323026,False
+within_premise_only,within_5fold,within,camfranglais,camfranglais,premise_only,15,123,0.44664031620553357,0.07929803418078608,51,114,0.4473684210526316,0.007374280780811168,True
+within_premise_only,within_5fold,within,camfranglais,camfranglais,premise_only,15,2024,0.33399209486166004,0.0460096708570072,38,114,0.3333333333333333,0.5351715971837242,False
+within_premise_only,within_5fold,within,pidgin,pidgin,premise_only,15,42,0.3770750988142292,0.020270168229182782,43,114,0.37719298245614036,0.18505308662933798,False
+within_premise_only,within_5fold,within,pidgin,pidgin,premise_only,15,123,0.3869565217391304,0.08475473343312143,44,114,0.38596491228070173,0.1376355989535196,False
+within_premise_only,within_5fold,within,pidgin,pidgin,premise_only,15,2024,0.3509881422924901,0.07563775825911641,40,114,0.3508771929824561,0.3790802224531754,False

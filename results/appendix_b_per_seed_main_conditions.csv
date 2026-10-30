@@ -1,0 +1,13 @@
+experiment,split_type,direction,train_variety,test_variety,condition,epochs,seed,fold_mean_accuracy,fold_sample_sd,pooled_correct,pooled_n,pooled_accuracy,binomial_p_one_sided,binomial_p_lt_0_05
+within_gloss,within_5fold,within,camfranglais,camfranglais,english_gloss,15,42,0.6403162055335969,0.07765566286319564,73,114,0.6403508771929824,2.087892942044246e-11,True
+within_gloss,within_5fold,within,camfranglais,camfranglais,english_gloss,15,123,0.5616600790513834,0.05879903327000511,64,114,0.5614035087719298,4.831189428355528e-07,True
+within_gloss,within_5fold,within,camfranglais,camfranglais,english_gloss,15,2024,0.6320158102766797,0.138159113917001,72,114,0.631578947368421,7.362676270582315e-11,True
+within_gloss,within_5fold,within,pidgin,pidgin,english_gloss,15,42,0.6403162055335969,0.07765566286319564,73,114,0.6403508771929824,2.087892942044246e-11,True
+within_gloss,within_5fold,within,pidgin,pidgin,english_gloss,15,123,0.5616600790513834,0.05879903327000511,64,114,0.5614035087719298,4.831189428355528e-07,True
+within_gloss,within_5fold,within,pidgin,pidgin,english_gloss,15,2024,0.6320158102766797,0.138159113917001,72,114,0.631578947368421,7.362676270582315e-11,True
+within_native,within_5fold,within,camfranglais,camfranglais,native_full,15,42,0.4549407114624506,0.09989918209912486,52,114,0.45614035087719296,0.00427952303916961,True
+within_native,within_5fold,within,camfranglais,camfranglais,native_full,15,123,0.44664031620553357,0.07309581821702345,51,114,0.4473684210526316,0.007374280780811168,True
+within_native,within_5fold,within,camfranglais,camfranglais,native_full,15,2024,0.48181818181818176,0.10759776110706855,55,114,0.4824561403508772,0.0006889508957958145,True
+within_native,within_5fold,within,pidgin,pidgin,native_full,15,42,0.4553359683794467,0.08005294378329068,52,114,0.45614035087719296,0.00427952303916961,True
+within_native,within_5fold,within,pidgin,pidgin,native_full,15,123,0.46521739130434786,0.08075728530872485,53,114,0.4649122807017544,0.0024048140225982665,True
+within_native,within_5fold,within,pidgin,pidgin,native_full,15,2024,0.4209486166007904,0.04784078433561347,48,114,0.42105263157894735,0.031161849409910618,True

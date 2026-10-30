@@ -1,0 +1,7 @@
+experiment,split_type,direction,train_variety,test_variety,condition,epochs,seed,fold_mean_accuracy,fold_sample_sd,pooled_correct,pooled_n,pooled_accuracy,binomial_p_one_sided,binomial_p_lt_0_05
+transfer_disjoint,disjoint_item_5fold,camfranglais_to_pidgin,camfranglais,pidgin,native_full,15,42,0.4205533596837944,0.04424406424966237,48,114,0.42105263157894735,0.031161849409910618,True
+transfer_disjoint,disjoint_item_5fold,camfranglais_to_pidgin,camfranglais,pidgin,native_full,15,123,0.45533596837944657,0.12212735183184621,52,114,0.45614035087719296,0.00427952303916961,True
+transfer_disjoint,disjoint_item_5fold,camfranglais_to_pidgin,camfranglais,pidgin,native_full,15,2024,0.4901185770750988,0.0771004316329295,56,114,0.49122807017543857,0.00035113168955067933,True
+transfer_disjoint,disjoint_item_5fold,pidgin_to_camfranglais,pidgin,camfranglais,native_full,15,42,0.37667984189723314,0.10257278737328543,43,114,0.37719298245614036,0.18505308662933798,False
+transfer_disjoint,disjoint_item_5fold,pidgin_to_camfranglais,pidgin,camfranglais,native_full,15,123,0.4379446640316206,0.06394128209879262,50,114,0.43859649122807015,0.012306550931552486,True
+transfer_disjoint,disjoint_item_5fold,pidgin_to_camfranglais,pidgin,camfranglais,native_full,15,2024,0.38616600790513833,0.03826037957416622,44,114,0.38596491228070173,0.1376355989535196,False

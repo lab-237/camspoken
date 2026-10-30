@@ -1,0 +1,7 @@
+experiment,split_type,direction,train_variety,test_variety,condition,epochs,seed,fold,correct,n_test,accuracy,fold_mean_component,status,seconds,counterpart_overlap
+transfer_old_counterpart_leak,parallel_content_counterpart_leak,pidgin_to_camfranglais,pidgin,camfranglais,native_full,15,42,-1,72,114,0.631578947368421,,intentional_counterpart_leak_audit,73.78969931602478,114
+transfer_old_counterpart_leak,parallel_content_counterpart_leak,pidgin_to_camfranglais,pidgin,camfranglais,native_full,15,123,-1,79,114,0.6929824561403509,,intentional_counterpart_leak_audit,71.8541932106018,114
+transfer_old_counterpart_leak,parallel_content_counterpart_leak,pidgin_to_camfranglais,pidgin,camfranglais,native_full,15,2024,-1,67,114,0.5877192982456141,,intentional_counterpart_leak_audit,71.72998285293579,114
+transfer_old_counterpart_leak,parallel_content_counterpart_leak,camfranglais_to_pidgin,camfranglais,pidgin,native_full,15,42,-1,79,114,0.6929824561403509,,intentional_counterpart_leak_audit,87.54280042648315,114
+transfer_old_counterpart_leak,parallel_content_counterpart_leak,camfranglais_to_pidgin,camfranglais,pidgin,native_full,15,123,-1,67,114,0.5877192982456141,,intentional_counterpart_leak_audit,69.57396984100342,114
+transfer_old_counterpart_leak,parallel_content_counterpart_leak,camfranglais_to_pidgin,camfranglais,pidgin,native_full,15,2024,-1,61,114,0.5350877192982456,,intentional_counterpart_leak_audit,72.29464507102966,114

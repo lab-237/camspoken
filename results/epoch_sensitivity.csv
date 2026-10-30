@@ -1,0 +1,9 @@
+experiment,split_type,direction,train_variety,test_variety,condition,epochs,n_seeds,mean_accuracy,sample_sd,population_sd,seeds_p_lt_0_05
+epoch_sensitivity,within_5fold,within,camfranglais,camfranglais,native_full,5,3,0.3888888888888889,0.022075539284417408,0.018024602347862514,1
+epoch_sensitivity,within_5fold,within,camfranglais,camfranglais,native_full,10,3,0.4444444444444444,0.06223332354910164,0.05081329589761042,2
+epoch_sensitivity,within_5fold,within,camfranglais,camfranglais,native_full,15,3,0.4619883040935672,0.018260228065492396,0.014909413782435047,3
+epoch_sensitivity,within_5fold,within,camfranglais,camfranglais,native_full,20,3,0.48538011695906436,0.04145452303730362,0.03384747632394806,3
+epoch_sensitivity,within_5fold,within,pidgin,pidgin,native_full,5,3,0.3567251461988304,0.03080600512530039,0.02515299785684977,0
+epoch_sensitivity,within_5fold,within,pidgin,pidgin,native_full,10,3,0.4269005847953216,0.03545133231866123,0.028945891627519493,2
+epoch_sensitivity,within_5fold,within,pidgin,pidgin,native_full,15,3,0.4473684210526316,0.023208344833899927,0.018949534205870946,3
+epoch_sensitivity,within_5fold,within,pidgin,pidgin,native_full,20,3,0.4590643274853801,0.049879304412959014,0.04072628151223427,2
