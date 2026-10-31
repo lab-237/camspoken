@@ -172,7 +172,7 @@ All materials are intended for research use. They may not be used for commercial
   title        = {CamSpokenNLI: A Pilot Resource for Cross-Variety Transfer Evaluation in Cameroon Pidgin English and Camfranglais},
   author       = {Ebika, Tiani Pekins},
   year         = {2026},
-  publisher    = {LAB 237 -- Open AI Research Lab},
+  publisher    = {LAB 237},
   howpublished = {Hugging Face Datasets},
   url          = {https://huggingface.co/datasets/lab-237/camspoken},
   note         = {arXiv link to be added}
