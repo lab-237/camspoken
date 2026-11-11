@@ -2,6 +2,8 @@
 
 The 26 files in this folder are the results behind the paper "CamSpokenNLI: A Pilot Resource for Cross-Variety Transfer Evaluation in Cameroon Pidgin English and Camfranglais" (v1.0). The top-level `README.md` explains how to run the code and lists the settings used. This page lists every file here, which script makes it, and what it contains. The files are in the same order as the run table in that README. `run_manifest.json` is in the repository root.
 
+The files in this folder are released under the PolyForm Noncommercial License 1.0.0, like the code. `asr_transcripts_raw.csv` and `appendix_c_asr_transcripts.csv` contain the premise texts, which are part of the dataset
+
 ## Setup and data checks
 
 | File | Made by | Contents |
