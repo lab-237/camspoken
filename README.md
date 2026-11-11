@@ -168,13 +168,13 @@ All materials are intended for research use. They may not be used for commercial
 ## Citation
 
 ```bibtex
-@misc{ebika2026camspokennli,
-  title        = {CamSpokenNLI: A Pilot Resource for Cross-Variety Transfer Evaluation in Cameroon Pidgin English and Camfranglais},
+@misc{ebika2026camspoken_code,
+  title        = {CamSpoken: Processing Pipeline, Notebooks and Experimental Results (v1.0)},
   author       = {Ebika, Tiani Pekins},
   year         = {2026},
   publisher    = {LAB 237},
-  howpublished = {Hugging Face Datasets},
-  url          = {https://huggingface.co/datasets/lab-237/camspoken},
-  note         = {arXiv link to be added}
+  howpublished = {GitHub repository},
+  version      = {v1.0},
+  url          = {https://github.com/lab-237/camspoken},
 }
 ```
