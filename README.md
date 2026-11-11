@@ -17,7 +17,7 @@ camspoken/
 ├─ SHA256SUMS.txt             SHA-256 hashes of pidgin.csv and camfranglais.csv, to check your download
 ├─ code/                      21 Python scripts that run on the released data, in run order
 │  └─ provenance/             5 Python scripts that produced the released data (documentation only)
-└─ results/                   26 result files (CC BY-NC 4.0), plus a README.md that describes each one
+└─ results/                   26 result files, plus a README.md that describes each one
 ```
 
 The audio is not in this repository. It is on Hugging Face, in the `source/audio/` folder, as `pidgin/wes_NNNNN.wav` and `camfranglais/camf_NNNNN.wav` (228 files, already trimmed).
@@ -103,11 +103,12 @@ The scripts share variables (data frames, paths, seeds, helper functions), so th
    - `00a_session_and_data.py` installs the packages, mounts Drive, sets the paths, seeds and settings, and checks both CSVs against their stored SHA-256 hashes (it stops if they differ);
    - `00b_shared_folds.py` builds the shared folds (`shared_item_folds`, `environment_nli.json`);
    - `00c_nli_helpers_and_smoke_test.py` defines the NLI helper functions and runs a one-epoch smoke test that is not saved.
+   
 4. **Run the other scripts** in the order of the table below, each as a cell in the same session.
 
-`00b` and `00c` stop with a clear message if an earlier setup script has not been run in the session. The NLI scripts (`02_*`) need only the CSVs; the ASR scripts and the audio checks also need the audio.
+   - `00b` and `00c` stop with a clear message if an earlier setup script has not been run in the session. The NLI scripts (`02_*`) need only the CSVs; the ASR scripts and the audio checks also need the audio.
 
-Outside Colab, replace the `drive.mount` line and set `DRIVE_ROOT` to your own folder. The raw recordings are not released; `code/provenance/00z_raw_audio_unpack.py` is needed only to rerun `01_A5_trim_audio.py` from raw files.
+   - Outside Colab, replace the `drive.mount` line and set `DRIVE_ROOT` to your own folder. The raw recordings are not released; `code/provenance/00z_raw_audio_unpack.py` is needed only to rerun `01_A5_trim_audio.py` from raw files.
 
 ## Run order, and which results each script produces
 
@@ -161,10 +162,10 @@ Provenance, in `code/provenance/`. It starts from raw recordings and source file
 
 ## Licences
 
-- Data, audio and Results(`results/`): [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
-- Code(`code/`): [PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0) (see `LICENSE`)
+- Data and Audio: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+- Code and Results: [PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0) (see `LICENSE`)
 
-All materials are intended for research use. They may not be used for commercial purposes. This is not an open-source licence in the OSI sense, because it excludes commercial use.
+All materials are intended for research use. They may not be used for commercial purposes.
 
 ## Citation
 
