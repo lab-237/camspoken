@@ -4,7 +4,7 @@ Code and result files for the paper **"CamSpokenNLI: A Pilot Resource for Cross-
 
 CamSpokenNLI v1.0 has 114 scenario-matched natural language inference items per variety (Cameroon Pidgin English and Camfranglais). The premises are spoken by a single speaker; the hypotheses are text only. The code fine-tunes XLM-RoBERTa-base on the text and runs Whisper zero-shot on the spoken premises.
 
-- **Data and audio:** Hugging Face dataset, [huggingface.co/datasets/lab-237/camspoken](https://huggingface.co/datasets/lab-237/camspoken) (release tag `v1.0`; the original CSV and audio files are in the `source/` folder). Access is gated (free account, accept the non-commercial terms, request access). The data is stored only there, not in this repository.
+- **Data and audio:** Hugging Face dataset, [huggingface.co/datasets/lab-237/camspoken](https://huggingface.co/datasets/lab-237/camspoken) (release tag `v1.0`; the original CSV and audio files are in the `source/` folder). Access is gated (free account, accept the non-commercial terms, request access). The dataset and audio are hosted only there. This repository holds the code and result files; the ASR result files include the premise texts used as references.
 - **Paper:** arXiv link to be added after posting.
 
 ## Contents of this repository
@@ -17,7 +17,7 @@ camspoken/
 ├─ SHA256SUMS.txt             SHA-256 hashes of pidgin.csv and camfranglais.csv, to check your download
 ├─ code/                      21 Python scripts that run on the released data, in run order
 │  └─ provenance/             5 Python scripts that produced the released data (documentation only)
-└─ results/                   26 result files, plus a README.md that describes each one
+└─ results/                   26 result files (CC BY-NC 4.0), plus a README.md that describes each one
 ```
 
 The audio is not in this repository. It is on Hugging Face, in the `source/audio/` folder, as `pidgin/wes_NNNNN.wav` and `camfranglais/camf_NNNNN.wav` (228 files, already trimmed).
@@ -149,6 +149,7 @@ Provenance, in `code/provenance/`. It starts from raw recordings and source file
 - **Counterpart-leak audit:** the `transfer_old_counterpart_leak` runs train on all 114 items of one variety and test on all 114 of the other, so a test item's counterpart is in the training set. They are an audit only and are not used in the main results. They are summarised in `appendix_d_old_counterpart_leak` (Appendix D.4 of the paper).
 - **Raw WER:** `asr_raw_wer` scores the unnormalised transcripts (whitespace-split, `<|...|>` language tags removed from the hypotheses). `asr_summary` and `table2_asr_wer_all_conditions` use the normalised scoring described in Appendix C.
 - **Runs:** every result file comes from the final data. The training scripts skip runs that are already in `fold_results`, so interrupted runs were resumed without repeating any, and `04_E` asserts that no run appears twice and that the counts are exact (276 NLI runs, 2,052 transcripts).
+- **Reruns**: training uses mixed precision (fp16) on a T4, and GPU training is not bitwise reproducible, so a rerun can differ slightly from the reported counts. The released `results/item_predictions.csv` and `results/fold_results.csv` are the reference for every number in the paper.
 - **Checksums:** `SHA256SUMS.txt` (the two CSVs) and `results/audio_checksums.csv` (the 228 audio files) let you verify the data files. `run_manifest.json` holds the fold-file hash.
 - **Extra files from `02_C7`:** the script also writes `per_seed`, `summary` and `baselines`. These repeat or combine the files listed above (`per_seed` is identical to `binomial_tests_all_seed_results`), so they are not included here.
 - **Audio durations:** the longest Camfranglais clip is 5.555 s. The paper reports it as 5.55 s (`03_H`) and `run_manifest.json` as 5.56 s, because they round it differently.
@@ -160,8 +161,8 @@ Provenance, in `code/provenance/`. It starts from raw recordings and source file
 
 ## Licences
 
-- Data and audio: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) (attribution, non-commercial use only)
-- Code: [PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0) (see `LICENSE`; non-commercial use only)
+- Data, audio and Results(`results/`): [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+- Code(`code/`): [PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0) (see `LICENSE`)
 
 All materials are intended for research use. They may not be used for commercial purposes. This is not an open-source licence in the OSI sense, because it excludes commercial use.
 
