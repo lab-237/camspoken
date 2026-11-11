@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software or reproduce the experiments, please cite the CamSpokenNLI paper."
+title: "CamSpoken (CamSpokenNLI v1.0): Processing Pipeline, Notebooks, and Experimental Results"
+version: 1.0.0
+date-released: 2026-11-11
+url: "https://github.com"
+repository-code: "https://github.com"
+license: PolyForm-Noncommercial-1.0.0
+authors:
+  - family-names: "Ebika"
+    given-names: "Tiani Pekins"
+    affiliation: "LAB 237"
+keywords:
+  - natural-language-inference
+  - cameroon-pidgin
+  - camfranglais
+  - low-resource-nlp
+  - speech-evaluation
+preferred-citation:
+  type: article
+  title: "CamSpokenNLI: A Pilot Resource for Cross-Variety Transfer Evaluation in Cameroon Pidgin English and Camfranglais"
+  authors:
+    - family-names: "Ebika"
+      given-names: "Tiani Pekins"
+  year: 2026
+  collection-title: "arXiv preprint"
+  # Once you have the ID, uncomment and add it here:
+  # identifiers:
+  #   - type: other
+  #     value: "arXiv:26xx.xxxxx"
