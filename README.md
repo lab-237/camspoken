@@ -7,7 +7,7 @@ CamSpokenNLI v1.0 has 114 scenario-matched natural language inference items per 
 - **Data and audio:** Hugging Face dataset, [huggingface.co/datasets/lab-237/camspoken](https://huggingface.co/datasets/lab-237/camspoken) (release tag `v1.0`; the original CSV and audio files are in the `source/` folder). Access is gated (free account, accept the non-commercial terms, request access). The dataset and audio are hosted only there. This repository holds the code and result files; the ASR result files include the premise texts used as references.
 - **Paper:** arXiv link to be added after posting.
 
-## Contents of this repository
+## Contents of this repository.
 
 ```
 camspoken/
