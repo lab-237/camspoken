@@ -3,8 +3,8 @@ message: "If you use this software or reproduce the experiments, please cite the
 title: "CamSpoken (CamSpokenNLI v1.0): Processing Pipeline, Notebooks, and Experimental Results"
 version: 1.0.0
 date-released: 2026-11-11
-url: "https://github.com"
-repository-code: "https://github.com"
+url: "https://github.com/lab-237/camspoken"
+repository-code: "https://github.com/lab-237/camspoken"
 license: PolyForm-Noncommercial-1.0.0
 authors:
   - family-names: "Ebika"
@@ -22,9 +22,7 @@ preferred-citation:
   authors:
     - family-names: "Ebika"
       given-names: "Tiani Pekins"
+  journal: "arXiv preprint arXiv:2611.17573"
   year: 2026
-  collection-title: "arXiv preprint"
-  # Once you have the ID, uncomment and add it here:
-  # identifiers:
-  #   - type: other
-  #     value: "arXiv:26xx.xxxxx"
+  doi: "10.48550/arXiv.2611.17573"
+  url: "https://arxiv.org/abs/2611.17573"
