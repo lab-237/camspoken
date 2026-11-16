@@ -171,7 +171,7 @@ All materials are intended for research use. They may not be used for commercial
 
 ```bibtex
 @misc{ebika2026camspoken_code,
-  title        = {CamSpoken: Processing Pipeline, Notebooks and Experimental Results (v1.0)},
+  title        = {{CamSpoken}: Processing Pipeline, Notebooks, and Experimental Results (v1.0)},
   author       = {Ebika, Tiani Pekins},
   year         = {2026},
   publisher    = {LAB 237},
